@@ -1,4 +1,4 @@
-﻿A,a
+A,a
 B,b
 C,c
 D,d
@@ -10,12 +10,14 @@ I,i
 J,j
 K,k
 L,l
+LL,ll
 M,m
-N,n
+N,n,ñ
 O,o
 P,p
 Q,q
 R,r
+RR,rr
 S,s
 T,t
 U,u
