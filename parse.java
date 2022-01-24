@@ -43,8 +43,8 @@ public static void main(String[] args) throws IOException
             letters.add(s);
         } 
         /* Printing Output */
-       for(String s: letters)
-            System.out.println(s);
+        //for(String s: letters)
+        //    System.out.println(s);
     }
     catch(Exception e)
     {
