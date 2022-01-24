@@ -42,9 +42,9 @@ public static void main(String[] args) throws IOException
             for(String s : data)
             letters.add(s);
         } 
-        //** Printing Output */
-       // for(String s: letters)
-       // System.out.println(s);
+        /* Printing Output */
+       for(String s: letters)
+            System.out.println(s);
     }
     catch(Exception e)
     {
