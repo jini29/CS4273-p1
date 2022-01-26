@@ -44,8 +44,8 @@ public static ArrayList<String> parse_lang(String lang) throws FileNotFoundExcep
                 letters.add(s);
             } 
             //** Printing Output */
-           for(String s: letters)
-           System.out.println(s);
+          // for(String s: letters)
+          // System.out.println(s);
         }
        /* catch(Exception e)
         {
