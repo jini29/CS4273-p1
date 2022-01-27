@@ -1,23 +1,5 @@
 <project>
 
-    <target name="clean">
-        <delete dir="build"/>
-    </target>
-
-    <target name="compile">
-        <mkdir dir="build/classes"/>
-        <javac srcdir="src" destdir="/"/>
-    </target>
-
-    <target name="jar">
-        <mkdir dir="build/jar"/>
-        <jar destfile="build/jar/test.jar" basedir="/">
-            <manifest>
-                <attribute name="Main-Class" value="oata.HelloWorld"/>
-            </manifest>
-        </jar>
-    </target>
-
     <target name="run">
         <java jar="build/jar/test.jar" fork="true"/>
     </target>
