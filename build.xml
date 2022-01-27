@@ -1,7 +1,7 @@
 <project>
 
     <target name="run">
-        <java jar="build/jar/test.jar" fork="true"/>
+        <java jar="test.jar" fork="true"/>
     </target>
 
 </project>
