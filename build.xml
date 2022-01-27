@@ -6,12 +6,12 @@
 
     <target name="compile">
         <mkdir dir="build/classes"/>
-        <javac srcdir="src" destdir="~/"/>
+        <javac srcdir="src" destdir="/"/>
     </target>
 
     <target name="jar">
         <mkdir dir="build/jar"/>
-        <jar destfile="build/jar/test.jar" basedir="~/">
+        <jar destfile="build/jar/test.jar" basedir="/">
             <manifest>
                 <attribute name="Main-Class" value="oata.HelloWorld"/>
             </manifest>
