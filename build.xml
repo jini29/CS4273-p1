@@ -11,7 +11,7 @@
 
     <target name="jar">
         <mkdir dir="build/jar"/>
-        <jar destfile="build/jar/HelloWorld.jar" basedir="build/classes">
+        <jar destfile="build/jar/test.jar" basedir="build/classes">
             <manifest>
                 <attribute name="Main-Class" value="oata.HelloWorld"/>
             </manifest>
