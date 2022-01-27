@@ -23,4 +23,4 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Build with Ant
-      run: ant -noinput -buildfile build-ci.xml jar
+      run: ant -noinput -buildfile build.xml jar
