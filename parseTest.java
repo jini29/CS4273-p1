@@ -26,7 +26,7 @@ class parseTest {
 		Random random = new Random();
 
 		// Test
-		assertEquals(en[0], actual1.get(1));
+		assertEquals(en[0], actual1.get(0));
 		assertEquals(en[en.length - 1], actual1.get(actual1.size() - 1));
 
 		assertEquals(es[0], actual2.get(0));
