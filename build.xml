@@ -5,7 +5,7 @@
     </target>
 
     <target name="compile">
-        <javac srcdir="/" destdir="/"/>
+        <javac srcdir="./" destdir="./"/>
     </target>
 
     <target name="run">
