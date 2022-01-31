@@ -21,7 +21,7 @@ public class ParseLang {
 		ArrayList<String> letters = new ArrayList<String>();// Create an ArrayList object
 
 		// tryen to create a buffered reader for a file reader
-		try (BufferedReader csv = new BufferedReader(new FileReader("/"+lang + ".csv"))) {
+		try (BufferedReader csv = new BufferedReader(new FileReader("src/main/java/"+lang + ".csv"))) {
 
 			// creating a temp String row for the row data
 			String row;
