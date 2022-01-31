@@ -1,4 +1,9 @@
 <project>
+  <groupId>CS4273</groupId>
+  <artifactId>test</artifactId>
+  <version>1.0</version>
+
+  <name>test</name>
     <dependencies>
     <!-- ... -->
         <dependency>
